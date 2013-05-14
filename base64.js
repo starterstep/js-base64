@@ -14,7 +14,7 @@
     var version = "2.1.2";
     // if node.js, we use Buffer
     var buffer;
-    if (typeof module !== 'undefined' && module.exports) {
+    if (typeof module !== 'undefined' && this.module !== module) {
         buffer = require('buffer').Buffer;
     }
     // constants
@@ -171,4 +171,4 @@
         };
     }
     // that's it!
-})(this);
+})(module.exports);

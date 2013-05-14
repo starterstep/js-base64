@@ -1,0 +1,13 @@
+{
+    "name": "js-base64",
+    "version": "2.1.2",
+    "description": "Yet another Base64 transcoder in pure-JS",
+    "author": "Dan Kogai (https://github.com/dankogai)",
+    "keywords": [
+        "base64"
+    ],
+    "scripts": [
+        "base64.js"
+    ],
+    "main": "base64.js"
+}
