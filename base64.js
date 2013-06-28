@@ -14,7 +14,7 @@
     var version = "2.1.2";
     // if node.js, we use Buffer
     var buffer;
-    if (typeof module !== 'undefined' && this.module !== module) {
+    if (typeof process === 'object') {
         buffer = require('buffer').Buffer;
     }
     // constants
