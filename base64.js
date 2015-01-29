@@ -12,11 +12,7 @@
     'use strict';
     if (global.Base64) return;
     var version = "2.1.2";
-    // if node.js, we use Buffer
     var buffer;
-    if (typeof process === 'object') {
-        buffer = require('buffer').Buffer;
-    }
     // constants
     var b64chars
         = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
