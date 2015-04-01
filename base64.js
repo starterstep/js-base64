@@ -11,7 +11,7 @@
 (function(global) {
     'use strict';
     if (global.Base64) return;
-    var version = "2.1.2";
+    var version = "2.1.3";
     var buffer;
     // constants
     var b64chars
